@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Парикмахерская</title>
+    <link href="https://fonts.googleapis.com/css?family=Oranienbaum:regular" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header" id="home">
+        <div class="header__row">
+            <div class="logo">
+                <img src="images/logo.svg" alt="логотип" class="logo__img logo-img">
+            </div>
+
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#partners">Партнеры</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#services">Услуги</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#staff">Мастера</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="menu-mobile">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="header__inner">
+            <h1 class="header__caption">Парикмахерская</h1>
+            <p class="header__text">
+                Создадим образ, который идеально подчеркнет ваш характер.
+
+            </p>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages__title title" data-pseudotitle="">Преимущества</h2>
+                <div class="advantages__items">
+                    <div class="advantages__item" data-da=".advantages__items,992,4">
+                        <picture class="advantages__item-photo">
+                            <source media="(min-width: 992px)" srcset="../images/advantages-price-1.svg">
+                            <img src="images/advantages-price-2.svg" alt="price" style="width:auto;">
+                        </picture>
+                        <p class="advantages__item-text">Низкие цены</p>
+                    </div>
+
+                    <div class="advantages__item" data-da=".advantages__items,992,1">
+                        <picture class="advantages__item-photo">
+                            <source media="(min-width: 992px)" srcset="../images/advantages-experience-1.svg">
+                            <img src="images/advantages-experience-2.svg" alt="experience" style="width:auto;">
+                        </picture>
+                        <p class="advantages__item-text">Многолетний опыт</p>
+                    </div>
+
+                    <div class="advantages__item" data-da=".advantages__items,992,5">
+                        <picture class="advantages__item-photo">
+                            <source media="(min-width: 992px)" srcset="../images/advantages-quality-1.svg">
+                            <img src="images/advantages-quality-2.svg" alt="quality" style="width:auto;">
+                        </picture>
+                        <p class="advantages__item-text">Качество</p>
+                    </div>
+
+                    <div class="advantages__item" data-da=".advantages__items,992,2">
+                        <picture class="advantages__item-photo">
+                            <source media="(min-width: 992px)" srcset="../images/advantages-shedule-1.svg">
+                            <img src="images/advantages-shedule-2.svg" alt="shedule" style="width:auto;">
+                        </picture>
+                        <p class="advantages__item-text">Запись ведётся в любое
+                            удобное для вас время</p>
+                    </div>
+
+                    <div class="advantages__item" data-da=".advantages__items,992,3">
+                        <picture class="advantages__item-photo">
+                            <source media="(min-width: 992px)" srcset="../images/advantages-location-1.svg">
+                            <img src="images/advantages-location-2.svg" alt="location" style="width:auto;">
+                        </picture>
+                        <p class="advantages__item-text">Удобное расположение
+                            в городе</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="safety">
+            <div class="container">
+                <h2 class="safety__title title" data-pseudotitle="">Безопасность</h2>
+                <div class="safety__inner">
+                    <div class="safety__about">
+                        <p class="safety__about-text">В связи с угрозой распространения вирусной инфекции COVID-19, в
+                            Парикмахерской приняты дополнительные меры: </p>
+                        <ul class="safety__about-list">
+                            <li class="safety__about-item">- Весь персонал работает в масках.</li>
+                            <li class="safety__about-item">- В течение дня регулярно проводится обработка помещений и
+                                рабочих поверхностей дезинфицирующими средствами.</li>
+                            <li class="safety__about-item">- Все инструменты обрабатываются антисептиками и
+                                стерилизуются в медицинских автоклавах.</li>
+                        </ul>
+                        <p class="safety__about-text">В свободном доступе в салонах находятся медицинские маски и
+                            дезинфицирующие растворы для наших гостей.</p>
+                        <p class="safety__about-text">Специалисты с признаками ОРВИ или прибывшие из стран с
+                            неблагоприятной вирусной обстановкой, к работе не допускаются!</p>
+                    </div>
+                    <img src="images/safety.jpg" alt="Средства защиты" class="safety__photo">
+                </div>
+            </div>
+        </section>
+
+        <section class="partners" id="partners">
+            <div class="container">
+                <h2 class="partners__title title" data-pseudotitle="">Наши партнеры</h2>
+                <div class="partners__inner">
+                    <img class="partners__logo" src="images/partners-logo1.svg" alt="ПрофКосметика">
+                    <img class="partners__logo" src="images/partners-logo2.svg" alt="Estel">
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="services__title title" data-pseudotitle="">Услуги и цены</h2>
+                <div class="services__inner">
+                    <div class="services__inner-top">
+                        <ul class="services__list">
+                            <li class="services__item">
+                                <h3 class="services__item-title active">Парикмахерские услуги</h3>
+                                <ul class="services__item-descr active">
+                                    <li class="services__item-link active men-hall">Мужской зал</li>
+                                    <li class="services__item-link women-hall">Женский зал*</li>
+                                </ul>
+                            </li>
+                            <li class="services__item">
+                                <h3 class="services__item-title">Ногтевой сервис*</h3>
+                                <ul class="services__item-descr">
+                                    <li class="services__item-link manicure-servise">Маникюр*</li>
+                                    <li class="services__item-link pedicure-servise">Педикюр*</li>
+                                </ul>
+                            </li>
+                            <li class="services__item">
+                                <h3 class="services__item-title">Брови и ресницы*</h3>
+                                <ul class="services__item-descr">
+                                    <li class="services__item-link eyebrows-servise">Оформление*</li>
+                                    <li class="services__item-link eyelashes-service">Коррекция*</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="services__photo" data-da=".services__inner,1080,last">
+                            <img class="services__photo-item photo-man active" src="images/services-men-bg.jpg"
+                                alt="Man">
+                            <img class="services__photo-item photo-woman" src="images/services-women-bg.jpg"
+                                alt="Woman">
+                            <img class="services__photo-item photo-nails" src="images/services-nails-bg.jpg"
+                                alt="Nails">
+                            <img class="services__photo-item photo-eyebrows" src="images/services-eyebrows-bg.jpg"
+                                alt="Еyebrows">
+
+                        </div>
+
+                    </div>
+
+                    <ul class="services__price-list price price-men active">
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка усов</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Бокс</h6>
+                            <p class="price__item-cost">350 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка бороды</h6>
+                            <p class="price__item-cost">200 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Полубокс</h6>
+                            <p class="price__item-cost">400 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка под насадку</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка наголо</h6>
+                            <p class="price__item-cost">200 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Школьная стрижка</h6>
+                            <p class="price__item-cost">400 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Модельная стрижка</h6>
+                            <p class="price__item-cost">450 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Дошкольная стрижка</h6>
+                            <p class="price__item-cost">350 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Модельная стрижка “Площадка”</h6>
+                            <p class="price__item-cost">500 руб</p>
+                        </li>
+                    </ul>
+
+                    <ul class="services__price-list price price-women">
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Стрижка</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                    </ul>
+
+                    <ul class="services__price-list price price-nails-manicure">
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">100 руб</p>
+                        </li>
+                    </ul>
+
+                    <ul class="services__price-list price price-nails-pedicure">
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">220 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">220 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">220 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">220 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">220 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">220 руб</p>
+                        </li>
+                    </ul>
+
+                    <ul class="services__price-list price price-eyebrows">
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">300 руб</p>
+                        </li>
+                    </ul>
+
+                    <ul class="services__price-list price price-eyelashes">
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                        <li class="price__item">
+                            <h6 class="price__item-title">Услуга</h6>
+                            <p class="price__item-cost">245 руб</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <p class="services__info">*Услуги присутствуют в парикмахерской, но на сайте не раскрыты</p>
+            </div>
+        </section>
+
+        <section class="staff" id="staff">
+            <div class="container">
+                <h2 class="staff__title title" data-pseudotitle="">Мастера</h2>
+                <div class="staff__swiper swiper swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper__item swiper-slide">
+                            <img class="swiper__item-photo" src="https://placehold.it/380x400" alt="photo">
+                            <div class="swiper__item-info staff-info">
+                                <p class="staff-info__name">Юля</p>
+                                <p class="staff-info__position">Мужской мастер по стрижке</p>
+                                <p class="staff-info__about">Более 15-ти лет стажа</p>
+                                <a href="tel:+80331002003" class="staff-info__phone">+8(033)1002003</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper__item swiper-slide">
+                            <img class="swiper__item-photo" src="https://placehold.it/380x400" alt="photo">
+                            <div class="swiper__item-info staff-info">
+                                <p class="staff-info__name">Юля</p>
+                                <p class="staff-info__position">Мужской мастер по стрижке</p>
+                                <p class="staff-info__about">Более 15-ти лет стажа</p>
+                                <a href="tel:+80331002003" class="staff-info__phone">+8(033)1002003</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper__item swiper-slide">
+                            <img class="swiper__item-photo" src="https://placehold.it/380x400" alt="photo">
+                            <div class="swiper__item-info staff-info">
+                                <p class="staff-info__name">Юля</p>
+                                <p class="staff-info__position">Мужской мастер по стрижке</p>
+                                <p class="staff-info__about">Более 15-ти лет стажа</p>
+                                <a href="tel:+80331002003" class="staff-info__phone">+8(033)1002003</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper__item swiper-slide">
+                            <img class="swiper__item-photo" src="https://placehold.it/380x400" alt="photo">
+                            <div class="swiper__item-info staff-info">
+                                <p class="staff-info__name">Юля</p>
+                                <p class="staff-info__position">Мужской мастер по стрижке</p>
+                                <p class="staff-info__about">Более 15-ти лет стажа</p>
+                                <a href="tel:+80331002003" class="staff-info__phone">+8(033)1002003</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper__item swiper-slide">
+                            <img class="swiper__item-photo" src="https://placehold.it/380x400" alt="photo">
+                            <div class="swiper__item-info staff-info">
+                                <p class="staff-info__name">Юля</p>
+                                <p class="staff-info__position">Мужской мастер по стрижке</p>
+                                <p class="staff-info__about">Более 15-ти лет стажа</p>
+                                <a href="tel:+80331002003" class="staff-info__phone">+8(033)1002003</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper__item swiper-slide">
+                            <img class="swiper__item-photo" src="https://placehold.it/380x400" alt="photo">
+                            <div class="swiper__item-info staff-info">
+                                <p class="staff-info__name">Юля</p>
+                                <p class="staff-info__position">Мужской мастер по стрижке</p>
+                                <p class="staff-info__about">Более 15-ти лет стажа</p>
+                                <a href="tel:+80331002003" class="staff-info__phone">+8(033)1002003</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper__item swiper-slide">
+                            <img class="swiper__item-photo" src="https://placehold.it/380x400" alt="photo">
+                            <div class="swiper__item-info staff-info">
+                                <p class="staff-info__name">Юля</p>
+                                <p class="staff-info__position">Мужской мастер по стрижке</p>
+                                <p class="staff-info__about">Более 15-ти лет стажа</p>
+                                <a href="tel:+80331002003" class="staff-info__phone">+8(033)1002003</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="staff__swiper-arrow swiper-button-prev"></div>
+                    <div class="staff__swiper-arrow swiper-button-next"></div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <div class="reviews__inner">
+                <div class="reviews__about">
+                    <h2 class="reviews__title title" data-pseudotitle="">Оставьте отзыв</h2>
+                </div>
+                <form class="reviews__form form">
+                    <input class="form__input" type="text" placeholder="Введите имя">
+                    <textarea class="form__textarea" placeholder="Комментарий" data-autoresize required></textarea>
+                    <button class="form__btn" type="submit">Добавить</button>
+                </form>
+                <p class="reviews__info" data-da=".reviews__about,992,last">Спасибо Вам за обратную связь.</p>
+            </div>
+        </section>
+
+        <div class="map">
+            <iframe class="map__place"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.787086875578!2d30.526859314557427!3d50.44506637947463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5485437bc9%3A0x7c34bc2fd523fcce!2z0LLRg9C70LjRhtGPINCR0LDQvdC60L7QstCwLCDQmtC40ZfQsiwgMDIwMDA!5e0!3m2!1suk!2sua!4v1614513198006!5m2!1suk!2sua"
+                height="626" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+
+                <div class="map__card" id="contact">
+                    <div class="map__card-inner">
+                        <div class="map__logo">
+                            <img class="map__logo-img logo-img" src="images/logo.svg" alt="логотип">
+                            <p class="map__caption">Парикмахерская</p>
+                        </div>
+                        <div class="map__info">
+                            <div class="map__item adress">
+                                <img class="map__item-photo" src="images/icon-map.svg" alt="map">
+                                <div class="map__item-text">
+                                    <p class="map__item-label">Адрес:</p>
+                                    <p class="map__item-main">г. Киев,</p>
+                                    <p class="map__item-sup">улица Банкова</p>
+                                </div>
+                            </div>
+
+                            <div class="map__item shedule">
+                                <img class="map__item-photo" src="images/icon-clock.svg" alt="clock">
+                                <div class="map__item-text">
+                                    <p class="map__item-main">Пн-Пт: 08:00 — 17:00</p>
+                                    <p class="map__item-main">Сб: 10:00 — 13:00</p>
+                                    <p class="map__item-sup">Вс: выходной</p>
+                                </div>
+                            </div>
+
+                            <div class="map__item phone">
+                                <img class="map__item-photo" src="images/icon-phone.svg" alt="phone">
+                                <div class="map__item-text">
+                                    <p class="map__item-label">Связаться с мастером
+                                        можно по личному
+                                        телефону</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img class="footer__logo-img logo-img" src="images/logo.svg" alt="логотип">
+                </div>
+
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#partners">Партнеры</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#services">Услуги</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#staff">Мастера</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#contact">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="footer__info">Верстка сайта</div>
+            </div>
+            <a class="footer__arrow" href="#home"></a>
+        </div>
+    </footer>
+
+    <div class="reviews-answer">
+        <div class="reviews-answer__inner">
+            <p class="reviews-answer__text">Ваш отзыв принят! Спасибо <br> (демо-версия ответа)</p>
+        </div>
+    </div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
